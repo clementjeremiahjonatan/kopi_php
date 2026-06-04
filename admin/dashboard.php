@@ -1,11 +1,10 @@
 <?php
 include "security.php";
 
-$username = $_SESSION['username'];
-
-echo "welcome, " . $username;
+echo "welcome, ".$username;
 ?>
 <br>
 <a href="courses/index.php">manajemen kelas</a>
 <br>
-<a href="logout.php">Logout</a>
+<a href = "registrations/index.php">manajemen pendaftaran</a>
+<a href="logout.php"><br>Logout</a>

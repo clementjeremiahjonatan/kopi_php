@@ -3,8 +3,10 @@ include "header.php";
 ?>
 <section>
     <form action="sv_login.php" method="post">
-        <input type="text" placeholder="username" name="username">
-        <input type="password" placeholder="password" name="password">
+        <input type="text" placeholder="Username" 
+name="username">
+        <input type="password" name="password" 
+placeholder="password">
         <button type="submit">Login</button>
     </form>
 </section>

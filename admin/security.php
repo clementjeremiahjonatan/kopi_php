@@ -7,3 +7,4 @@ if ($username == "") {
     header("location: ../login.php");
     exit;
 }
+?>
